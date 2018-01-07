@@ -176,7 +176,6 @@ public class LangtonAnt extends JPanel {
 
         if(wasOnBlack) {
             blackGrids.remove(gridToRemove);
-            fillGrid(gridToRemove, Color.WHITE, g);
             turnLeft(ant);
         } else {
             blackGrids.add(new Grid(ant.grid.x, ant.grid.y));
